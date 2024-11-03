@@ -1,4 +1,4 @@
-# Competition-AXA-Data-Science-Challenge
+# Competition and Coursework - AXA Belgium and UAntwer's Data Science Challenge
 
 **Business Understanding**: AXA Belgium aims to increase the conversion rate of its car insurance offers by understanding which customer profiles are more likely to convert offers into contracts. Using a 2023 dataset with various customer, car, and broker attributes, we developed a predictive model to assess conversion probability. By identifying key offer characteristics, AXA can improve its car insurance offerings and strengthen its position as a market leader in Belgium.
 
