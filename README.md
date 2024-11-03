@@ -1,0 +1,13 @@
+# Competition-AXA-Data-Science-Challenge
+
+**Business Understanding**: AXA Belgium aims to increase the conversion rate of its car insurance offers by understanding which customer profiles are more likely to convert offers into contracts. Using a 2023 dataset with various customer, car, and broker attributes, we developed a predictive model to assess conversion probability. By identifying key offer characteristics, AXA can improve its car insurance offerings and strengthen its position as a market leader in Belgium.
+
+**Data Understanding**: The dataset consists of 44,928 observations across 22 variables. We categorized the variables into nominal, ordinal, discrete, continuous, and binary types for visualization and analysis. Data quality issues were identified, including incorrect data types and missing values (ranging from 40% to 80% in certain variables). Correlations, such as between driver’s age and license years, provided insights that aligned with business context. 
+
+**Data Preparation**: We refined the dataset by removing variables susceptible to data leakage and splitting it into training, validation, and test sets. Missing values were imputed with contextually appropriate values, data types were adjusted to meet requirements, and extreme outliers were clipped after standardization. Variables like car brand were simplified to improve model performance, and categorical variables were encoded for analysis.
+
+**Modeling and Evaluation**: Several classification models (e.g., k-Nearest Neighbor, Decision Tree, Logistic Regression, Random Forest, Support Vector Machine) were evaluated, with Random Forest emerging as the top performer. Model metrics included AUC, accuracy, cost, and lift, with the Random Forest achieving an AUC of 0.7444 and an accuracy of 70.13%. This model offers reasonable predictive power in identifying conversions with minimal cost impact.
+
+**Business Insights and Recommendations**: To maximize the model’s utility, AXA should review model accuracy requirements, quantify the cost of misclassification, and consider additional data collection and data quality improvements. Deployment of the model can enable AXA to optimize conversion strategies and potentially implement targeted marketing for higher conversion segments, such as older customers. Further, developing specific models for different customer personas could enhance future model performance and training efficiency.
+
+**Disclaimer:** This project is part of the university course "Machine Learning" and was conducted as part of a competition organized by AXA Belgium. Due to confidentiality agreements, I am unable to share the dataset used for this analysis as I have signed a Non-Disclosure Agreement (NDA).
