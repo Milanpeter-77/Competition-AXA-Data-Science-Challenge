@@ -10,4 +10,4 @@
 
 **Business Insights and Recommendations**: To maximize the model’s utility, AXA should review model accuracy requirements, quantify the cost of misclassification, and consider additional data collection and data quality improvements. Deployment of the model can enable AXA to optimize conversion strategies and potentially implement targeted marketing for higher conversion segments, such as older customers. Further, developing specific models for different customer personas could enhance future model performance and training efficiency.
 
-**Disclaimer:** This project is part of the university course "Machine Learning" and was conducted as part of a competition organized by AXA Belgium. Due to confidentiality agreements, I am unable to share the dataset used for this analysis as I have signed a Non-Disclosure Agreement (NDA).
+**Disclaimer:** This project is part of the university course *Machine Learning* and was conducted as part of a competition organized by AXA Belgium. Due to confidentiality agreements, I am unable to share the dataset used for this analysis as I have signed a Non-Disclosure Agreement (NDA).
